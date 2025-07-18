@@ -21,13 +21,71 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%↑↑ここのファイル名を表紙PDFファイル名に変更
 
 \section{目的}
-あ
+本実験の目的は、時間信号と周波数スペクトルの相互関係を理解するとともに、アナログフィルタを用いた周波数選択によって時間信号が変化する様子を理解することである。
 
 \section{原理}
-い
+
+\subsection{フーリエ級数}
+周期 $T$ の周期関数 $f(t)$ は、以下のような三角関数の級数で表される：
+\begin{align}
+f(t) = a_0 + \sum_{n=1}^{\infty} a_n \cos \frac{2\pi nt}{T} + \sum_{n=1}^{\infty} b_n \sin \frac{2\pi nt}{T}
+\end{align}
+
+各係数は以下のように求められる：
+\begin{align}
+a_0 &= \frac{1}{T} \int_{-T/2}^{T/2} f(t) dt \\
+a_n &= \frac{2}{T} \int_{-T/2}^{T/2} f(t) \cos \frac{2\pi nt}{T} dt \\
+b_n &= \frac{2}{T} \int_{-T/2}^{T/2} f(t) \sin \frac{2\pi nt}{T} dt
+\end{align}
+
+\subsection{伝達関数とRCフィルタ}
+線形システムの動作は伝達関数によって記述され、周波数 $f_n$ に対して次のように定義される：
+\begin{align}
+H(f_n) = |H(f_n)| e^{j\theta(f_n)}
+\end{align}
+
+RC低域通過フィルタ（LPF）の伝達関数は、
+\begin{align}
+H(f) = \frac{1}{1 + j\frac{f}{f_1}}
+\end{align}
+ただし、$f_1 = \frac{1}{2\pi RC}$ は遮断周波数である。
+
+RC高域通過フィルタ（HPF）の伝達関数は、
+\begin{align}
+H(f) = \frac{1}{1 + j\frac{f_2}{f}}
+\end{align}
+ただし、$f_2 = \frac{1}{2\pi RC}$ である。
+
+\subsection{離散フーリエ変換（DFT）}
+時間領域の離散信号 $f_n$ に対して、離散フーリエ変換は以下の式で与えられる：
+\begin{align}
+F_k = \sum_{n=0}^{N-1} f_n e^{-j \frac{2\pi kn}{N}}
+\end{align}
 
 \section{実験方法}
-う
+
+\subsection{時間信号の測定}
+VirtualBenchを用いて、以下の手順で時間信号を測定した：
+
+\begin{enumerate}
+  \item NI VirtualBenchを起動し、DUTとしてLPFを接続した。
+  \item FGENで正弦波を選択し、$10\,\mathrm{kHz}$から$1\,\mathrm{MHz}$までの周波数、および遮断周波数における入力・出力波形を測定し、数値データとして保存した。
+  \item 各班員が用意した任意波形、および班で用意したガウシアンパルスをFGENに設定し、それぞれ測定を行い、数値データとして保存した。
+  \item DUTをHPF, BPF, BEFへ変更し、同様の手順で測定を繰り返した。
+  \item 測定結果から、各周波数における振幅比（dB）および位相差を計算し、グラフを作成した。
+  \item 任意波形およびガウシアンパルスについては、入力信号と出力信号を同一グラフにプロットし、波形の変化を確認できるようにした。
+\end{enumerate}
+
+\subsection{周波数特性の測定}
+NanoVNAを用いてフィルタの周波数特性を測定した。以下の手順で実施した：
+
+\begin{enumerate}
+  \item NanoVNAをPCに接続し、「NanoVNA.exe」を起動した。
+  \item ポートをCOM3に設定し、測定周波数範囲を$50\,\mathrm{kHz}$から$1\,\mathrm{MHz}$に設定した。
+  \item キャリブレーション（open, short, load, isolation, through）を行い、「save0」に記録した。
+  \item DUTとして各フィルタ（LPF, HPF, BPF, BEF）を接続し、測定データを「s2p」形式で保存した。
+\end{enumerate}
+
 
 \section{実験結果}
 え
