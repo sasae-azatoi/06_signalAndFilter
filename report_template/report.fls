@@ -443,3 +443,190 @@ INPUT ./fig/Original_wave2_LPF_characteristic.png
 INPUT ./fig/Original_wave2_LPF_characteristic.png
 INPUT ./fig/Original_wave2_LPF_characteristic.png
 INPUT extractbb -B cropbox -O fig/Original_wave2_LPF_characteristic.png
+INPUT ./fig/Original_wave3_LPF_characteristic.png
+INPUT ./fig/Original_wave3_LPF_characteristic.png
+INPUT ./fig/Original_wave3_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave3_LPF_characteristic.png
+INPUT ./fig/Original_wave4_LPF_characteristic.png
+INPUT ./fig/Original_wave4_LPF_characteristic.png
+INPUT ./fig/Original_wave4_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave4_LPF_characteristic.png
+INPUT ./fig/10kHz_HPF_characteristic.png
+INPUT ./fig/10kHz_HPF_characteristic.png
+INPUT ./fig/10kHz_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/10kHz_HPF_characteristic.png
+INPUT ./fig/20kHz_HPF_characteristic.png
+INPUT ./fig/20kHz_HPF_characteristic.png
+INPUT ./fig/20kHz_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/20kHz_HPF_characteristic.png
+INPUT ./fig/40kHz_HPF_characteristic.png
+INPUT ./fig/40kHz_HPF_characteristic.png
+INPUT ./fig/40kHz_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/40kHz_HPF_characteristic.png
+INPUT ./fig/50kHz_HPF_characteristic.png
+INPUT ./fig/50kHz_HPF_characteristic.png
+INPUT ./fig/50kHz_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/50kHz_HPF_characteristic.png
+INPUT ./fig/80kHz_HPF_characteristic.png
+INPUT ./fig/80kHz_HPF_characteristic.png
+INPUT ./fig/80kHz_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/80kHz_HPF_characteristic.png
+INPUT ./fig/100kHz_HPF_characteristic.png
+INPUT ./fig/100kHz_HPF_characteristic.png
+INPUT ./fig/100kHz_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/100kHz_HPF_characteristic.png
+INPUT ./fig/140kHz_HPF_characteristic.png
+INPUT ./fig/140kHz_HPF_characteristic.png
+INPUT ./fig/140kHz_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/140kHz_HPF_characteristic.png
+INPUT ./fig/200kHz_HPF_characteristic.png
+INPUT ./fig/200kHz_HPF_characteristic.png
+INPUT ./fig/200kHz_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/200kHz_HPF_characteristic.png
+INPUT ./fig/400kHz_HPF_characteristic.png
+INPUT ./fig/400kHz_HPF_characteristic.png
+INPUT ./fig/400kHz_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/400kHz_HPF_characteristic.png
+INPUT ./fig/1000kHz_HPF_characteristic.png
+INPUT ./fig/1000kHz_HPF_characteristic.png
+INPUT ./fig/1000kHz_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/1000kHz_HPF_characteristic.png
+INPUT ./fig/Gaussian_pulse_HPF_characteristic.png
+INPUT ./fig/Gaussian_pulse_HPF_characteristic.png
+INPUT ./fig/Gaussian_pulse_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Gaussian_pulse_HPF_characteristic.png
+INPUT ./fig/Original_wave1_HPF_characteristic.png
+INPUT ./fig/Original_wave1_HPF_characteristic.png
+INPUT ./fig/Original_wave1_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave1_HPF_characteristic.png
+INPUT ./fig/Original_wave2_HPF_characteristic.png
+INPUT ./fig/Original_wave2_HPF_characteristic.png
+INPUT ./fig/Original_wave2_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave2_HPF_characteristic.png
+INPUT ./fig/Original_wave3_HPF_characteristic.png
+INPUT ./fig/Original_wave3_HPF_characteristic.png
+INPUT ./fig/Original_wave3_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave3_HPF_characteristic.png
+INPUT ./fig/Original_wave4_HPF_characteristic.png
+INPUT ./fig/Original_wave4_HPF_characteristic.png
+INPUT ./fig/Original_wave4_HPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave4_HPF_characteristic.png
+INPUT ./fig/10kHz_BPF_characteristic.png
+INPUT ./fig/10kHz_BPF_characteristic.png
+INPUT ./fig/10kHz_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/10kHz_BPF_characteristic.png
+INPUT ./fig/20kHz_BPF_characteristic.png
+INPUT ./fig/20kHz_BPF_characteristic.png
+INPUT ./fig/20kHz_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/20kHz_BPF_characteristic.png
+INPUT ./fig/40kHz_BPF_characteristic.png
+INPUT ./fig/40kHz_BPF_characteristic.png
+INPUT ./fig/40kHz_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/40kHz_BPF_characteristic.png
+INPUT ./fig/50kHz_BPF_characteristic.png
+INPUT ./fig/50kHz_BPF_characteristic.png
+INPUT ./fig/50kHz_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/50kHz_BPF_characteristic.png
+INPUT ./fig/80kHz_BPF_characteristic.png
+INPUT ./fig/80kHz_BPF_characteristic.png
+INPUT ./fig/80kHz_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/80kHz_BPF_characteristic.png
+INPUT ./fig/100kHz_BPF_characteristic.png
+INPUT ./fig/100kHz_BPF_characteristic.png
+INPUT ./fig/100kHz_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/100kHz_BPF_characteristic.png
+INPUT ./fig/200kHz_BPF_characteristic.png
+INPUT ./fig/200kHz_BPF_characteristic.png
+INPUT ./fig/200kHz_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/200kHz_BPF_characteristic.png
+INPUT ./fig/400kHz_BPF_characteristic.png
+INPUT ./fig/400kHz_BPF_characteristic.png
+INPUT ./fig/400kHz_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/400kHz_BPF_characteristic.png
+INPUT ./fig/1000kHz_BPF_characteristic.png
+INPUT ./fig/1000kHz_BPF_characteristic.png
+INPUT ./fig/1000kHz_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/1000kHz_BPF_characteristic.png
+INPUT ./fig/Gaussian_pulse_BPF_characteristic.png
+INPUT ./fig/Gaussian_pulse_BPF_characteristic.png
+INPUT ./fig/Gaussian_pulse_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Gaussian_pulse_BPF_characteristic.png
+INPUT ./fig/Original_wave1_BPF_characteristic.png
+INPUT ./fig/Original_wave1_BPF_characteristic.png
+INPUT ./fig/Original_wave1_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave1_BPF_characteristic.png
+INPUT ./fig/Original_wave2_BPF_characteristic.png
+INPUT ./fig/Original_wave2_BPF_characteristic.png
+INPUT ./fig/Original_wave2_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave2_BPF_characteristic.png
+INPUT ./fig/Original_wave3_BPF_characteristic.png
+INPUT ./fig/Original_wave3_BPF_characteristic.png
+INPUT ./fig/Original_wave3_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave3_BPF_characteristic.png
+INPUT ./fig/Original_wave4_BPF_characteristic.png
+INPUT ./fig/Original_wave4_BPF_characteristic.png
+INPUT ./fig/Original_wave4_BPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave4_BPF_characteristic.png
+INPUT ./fig/10kHz_BEF_characteristic.png
+INPUT ./fig/10kHz_BEF_characteristic.png
+INPUT ./fig/10kHz_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/10kHz_BEF_characteristic.png
+INPUT ./fig/20kHz_BEF_characteristic.png
+INPUT ./fig/20kHz_BEF_characteristic.png
+INPUT ./fig/20kHz_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/20kHz_BEF_characteristic.png
+INPUT ./fig/40kHz_BEF_characteristic.png
+INPUT ./fig/40kHz_BEF_characteristic.png
+INPUT ./fig/40kHz_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/40kHz_BEF_characteristic.png
+INPUT ./fig/50kHz_BEF_characteristic.png
+INPUT ./fig/50kHz_BEF_characteristic.png
+INPUT ./fig/50kHz_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/50kHz_BEF_characteristic.png
+INPUT ./fig/80kHz_BEF_characteristic.png
+INPUT ./fig/80kHz_BEF_characteristic.png
+INPUT ./fig/80kHz_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/80kHz_BEF_characteristic.png
+INPUT ./fig/100kHz_BEF_characteristic.png
+INPUT ./fig/100kHz_BEF_characteristic.png
+INPUT ./fig/100kHz_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/100kHz_BEF_characteristic.png
+INPUT ./fig/140kHz_BEF_characteristic.png
+INPUT ./fig/140kHz_BEF_characteristic.png
+INPUT ./fig/140kHz_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/140kHz_BEF_characteristic.png
+INPUT ./fig/200kHz_BEF_characteristic.png
+INPUT ./fig/200kHz_BEF_characteristic.png
+INPUT ./fig/200kHz_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/200kHz_BEF_characteristic.png
+INPUT ./fig/400kHz_BEF_characteristic.png
+INPUT ./fig/400kHz_BEF_characteristic.png
+INPUT ./fig/400kHz_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/400kHz_BEF_characteristic.png
+INPUT ./fig/1000kHz_BEF_characteristic.png
+INPUT ./fig/1000kHz_BEF_characteristic.png
+INPUT ./fig/1000kHz_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/1000kHz_BEF_characteristic.png
+INPUT ./fig/Gaussian_pulse_BEF_characteristic.png
+INPUT ./fig/Gaussian_pulse_BEF_characteristic.png
+INPUT ./fig/Gaussian_pulse_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Gaussian_pulse_BEF_characteristic.png
+INPUT ./fig/Original_wave1_BEF_characteristic.png
+INPUT ./fig/Original_wave1_BEF_characteristic.png
+INPUT ./fig/Original_wave1_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave1_BEF_characteristic.png
+INPUT ./fig/Original_wave2_BEF_characteristic.png
+INPUT ./fig/Original_wave2_BEF_characteristic.png
+INPUT ./fig/Original_wave2_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave2_BEF_characteristic.png
+INPUT ./fig/Original_wave3_BEF_characteristic.png
+INPUT ./fig/Original_wave3_BEF_characteristic.png
+INPUT ./fig/Original_wave3_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave3_BEF_characteristic.png
+INPUT ./fig/Original_wave4_BEF_characteristic.png
+INPUT ./fig/Original_wave4_BEF_characteristic.png
+INPUT ./fig/Original_wave4_BEF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave4_BEF_characteristic.png
+INPUT report.aux
+INPUT ./report.out
+INPUT ./report.out

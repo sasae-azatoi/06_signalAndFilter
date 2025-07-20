@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.20)  20 JUL 2025 22:02
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.20)  20 JUL 2025 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -844,4 +844,232 @@ File: fig/VNA.drawio.png Graphic file (type bmp)
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 122.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 122.
+File: fig/10kHz_LPF_characteristic.png Graphic file (type bmp)
+<fig/10kHz_LPF_characteristic.png>
+File: fig/20kHz_LPF_characteristic.png Graphic file (type bmp)
+<fig/20kHz_LPF_characteristic.png>
+
+
+[5]
+File: fig/40kHz_LPF_characteristic.png Graphic file (type bmp)
+<fig/40kHz_LPF_characteristic.png>
+File: fig/50kHz_LPF_characteristic.png Graphic file (type bmp)
+<fig/50kHz_LPF_characteristic.png>
+
+
+[6]
+File: fig/80kHz_LPF_characteristic.png Graphic file (type bmp)
+<fig/80kHz_LPF_characteristic.png>
+File: fig/100kHz_LPF_characteristic.png Graphic file (type bmp)
+<fig/100kHz_LPF_characteristic.png>
+
+
+[7]
+File: fig/150kHz_LPF_characteristic.png Graphic file (type bmp)
+<fig/150kHz_LPF_characteristic.png>
+File: fig/200kHz_LPF_characteristic.png Graphic file (type bmp)
+<fig/200kHz_LPF_characteristic.png>
+
+
+[8]
+File: fig/400kHz_LPF_characteristic.png Graphic file (type bmp)
+<fig/400kHz_LPF_characteristic.png>
+File: fig/1000kHz_LPF_characteristic.png Graphic file (type bmp)
+<fig/1000kHz_LPF_characteristic.png>
+
+
+[9]
+File: fig/Gaussian_pulse_LPF_characteristic.png Graphic file (type bmp)
+<fig/Gaussian_pulse_LPF_characteristic.png>
+File: fig/Original_wave1_LPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave1_LPF_characteristic.png>
+
+
+[10]
+File: fig/Original_wave2_LPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave2_LPF_characteristic.png>
+File: fig/Original_wave3_LPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave3_LPF_characteristic.png>
+
+
+[11]
+File: fig/Original_wave4_LPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave4_LPF_characteristic.png>
+
+
+[12]
+File: fig/10kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/10kHz_HPF_characteristic.png>
+File: fig/20kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/20kHz_HPF_characteristic.png>
+File: fig/40kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/40kHz_HPF_characteristic.png>
+
+
+[13]
+File: fig/50kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/50kHz_HPF_characteristic.png>
+File: fig/80kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/80kHz_HPF_characteristic.png>
+
+
+[14]
+File: fig/100kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/100kHz_HPF_characteristic.png>
+File: fig/140kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/140kHz_HPF_characteristic.png>
+
+
+[15]
+File: fig/200kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/200kHz_HPF_characteristic.png>
+File: fig/400kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/400kHz_HPF_characteristic.png>
+
+
+[16]
+File: fig/1000kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/1000kHz_HPF_characteristic.png>
+
+
+[17]
+File: fig/Gaussian_pulse_HPF_characteristic.png Graphic file (type bmp)
+<fig/Gaussian_pulse_HPF_characteristic.png>
+File: fig/Original_wave1_HPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave1_HPF_characteristic.png>
+File: fig/Original_wave2_HPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave2_HPF_characteristic.png>
+
+
+[18]
+File: fig/Original_wave3_HPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave3_HPF_characteristic.png>
+File: fig/Original_wave4_HPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave4_HPF_characteristic.png>
+
+
+[19]
+File: fig/10kHz_BPF_characteristic.png Graphic file (type bmp)
+<fig/10kHz_BPF_characteristic.png>
+File: fig/20kHz_BPF_characteristic.png Graphic file (type bmp)
+<fig/20kHz_BPF_characteristic.png>
+
+
+[20]
+File: fig/40kHz_BPF_characteristic.png Graphic file (type bmp)
+<fig/40kHz_BPF_characteristic.png>
+File: fig/50kHz_BPF_characteristic.png Graphic file (type bmp)
+<fig/50kHz_BPF_characteristic.png>
+
+
+[21]
+File: fig/80kHz_BPF_characteristic.png Graphic file (type bmp)
+<fig/80kHz_BPF_characteristic.png>
+File: fig/100kHz_BPF_characteristic.png Graphic file (type bmp)
+<fig/100kHz_BPF_characteristic.png>
+
+
+[22]
+File: fig/200kHz_BPF_characteristic.png Graphic file (type bmp)
+<fig/200kHz_BPF_characteristic.png>
+File: fig/400kHz_BPF_characteristic.png Graphic file (type bmp)
+<fig/400kHz_BPF_characteristic.png>
+
+
+[23]
+File: fig/1000kHz_BPF_characteristic.png Graphic file (type bmp)
+<fig/1000kHz_BPF_characteristic.png>
+
+
+[24]
+File: fig/Gaussian_pulse_BPF_characteristic.png Graphic file (type bmp)
+<fig/Gaussian_pulse_BPF_characteristic.png>
+File: fig/Original_wave1_BPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave1_BPF_characteristic.png>
+File: fig/Original_wave2_BPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave2_BPF_characteristic.png>
+
+
+[25]
+File: fig/Original_wave3_BPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave3_BPF_characteristic.png>
+File: fig/Original_wave4_BPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave4_BPF_characteristic.png>
+
+
+[26]
+File: fig/10kHz_BEF_characteristic.png Graphic file (type bmp)
+<fig/10kHz_BEF_characteristic.png>
+File: fig/20kHz_BEF_characteristic.png Graphic file (type bmp)
+<fig/20kHz_BEF_characteristic.png>
+
+
+[27]
+File: fig/40kHz_BEF_characteristic.png Graphic file (type bmp)
+<fig/40kHz_BEF_characteristic.png>
+File: fig/50kHz_BEF_characteristic.png Graphic file (type bmp)
+<fig/50kHz_BEF_characteristic.png>
+
+
+[28]
+File: fig/80kHz_BEF_characteristic.png Graphic file (type bmp)
+<fig/80kHz_BEF_characteristic.png>
+File: fig/100kHz_BEF_characteristic.png Graphic file (type bmp)
+<fig/100kHz_BEF_characteristic.png>
+
+
+[29]
+File: fig/140kHz_BEF_characteristic.png Graphic file (type bmp)
+<fig/140kHz_BEF_characteristic.png>
+File: fig/200kHz_BEF_characteristic.png Graphic file (type bmp)
+<fig/200kHz_BEF_characteristic.png>
+
+
+[30]
+File: fig/400kHz_BEF_characteristic.png Graphic file (type bmp)
+<fig/400kHz_BEF_characteristic.png>
+File: fig/1000kHz_BEF_characteristic.png Graphic file (type bmp)
+<fig/1000kHz_BEF_characteristic.png>
+
+
+[31]
+File: fig/Gaussian_pulse_BEF_characteristic.png Graphic file (type bmp)
+<fig/Gaussian_pulse_BEF_characteristic.png>
+File: fig/Original_wave1_BEF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave1_BEF_characteristic.png>
+
+
+[32]
+File: fig/Original_wave2_BEF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave2_BEF_characteristic.png>
+File: fig/Original_wave3_BEF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave3_BEF_characteristic.png>
+
+
+[33]
+File: fig/Original_wave4_BEF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave4_BEF_characteristic.png>
+
+
+[34]
+
+[35] (./report.aux)
+ ***********
+pLaTeX2e <2023-02-14>+1, based on
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+ ***********
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: C56E6D7E7E2FA570C34EF692C24A78B0;1459.
+ ) 
+Here is how much of TeX's memory you used:
+ 28108 strings out of 474243
+ 525687 string characters out of 5746674
+ 1934753 words of memory out of 5000000
+ 50454 multiletter control sequences out of 15000+600000
+ 570506 words of font info for 86 fonts, out of 8000000 for 9000
+ 929 hyphenation exceptions out of 8191
+ 105i,14n,119p,536b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on report.dvi (35 pages, 47920 bytes).

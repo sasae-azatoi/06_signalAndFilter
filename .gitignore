@@ -11,7 +11,8 @@
 !report_template/*.sty
 !report_template/Title.pdf
 !report_template/report.pdf
-
+.fls
+.dvi
 !program/
 
 # .gitignore自身は共有
