@@ -1,8 +1,8 @@
-PWD c:/Users/takan/OneDrive/reports/4�N/06_signalAndFilter/report_template
+PWD c:/Users/iorii/Documents/4_6フィルタ/06_signalAndFilter/report_template
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt
-INPUT c:/Users/takan/OneDrive/reports/4�N/06_signalAndFilter/report_template/report.tex
+INPUT c:/Users/iorii/Documents/4_6フィルタ/06_signalAndFilter/report_template/report.tex
 OUTPUT report.log
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
@@ -224,6 +224,8 @@ INPUT c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT c:/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/auxhook/auxhook.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
@@ -234,8 +236,6 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
-INPUT c:/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
 INPUT c:/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
