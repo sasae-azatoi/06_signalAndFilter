@@ -627,6 +627,22 @@ INPUT ./fig/Original_wave4_BEF_characteristic.png
 INPUT ./fig/Original_wave4_BEF_characteristic.png
 INPUT ./fig/Original_wave4_BEF_characteristic.png
 INPUT extractbb -B cropbox -O fig/Original_wave4_BEF_characteristic.png
+INPUT ./fig/NanoVNA_LPF.png
+INPUT ./fig/NanoVNA_LPF.png
+INPUT ./fig/NanoVNA_LPF.png
+INPUT extractbb -B cropbox -O fig/NanoVNA_LPF.png
+INPUT ./fig/NanoVNA_HPF.png
+INPUT ./fig/NanoVNA_HPF.png
+INPUT ./fig/NanoVNA_HPF.png
+INPUT extractbb -B cropbox -O fig/NanoVNA_HPF.png
+INPUT ./fig/NanoVNA_BPF.png
+INPUT ./fig/NanoVNA_BPF.png
+INPUT ./fig/NanoVNA_BPF.png
+INPUT extractbb -B cropbox -O fig/NanoVNA_BPF.png
+INPUT ./fig/NanoVNA_BEF.png
+INPUT ./fig/NanoVNA_BEF.png
+INPUT ./fig/NanoVNA_BEF.png
+INPUT extractbb -B cropbox -O fig/NanoVNA_BEF.png
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out

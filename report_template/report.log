@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.20)  20 JUL 2025 22:37
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.20)  20 JUL 2025 23:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1053,23 +1053,37 @@ File: fig/Original_wave4_BEF_characteristic.png Graphic file (type bmp)
 
 
 [34]
+File: fig/NanoVNA_LPF.png Graphic file (type bmp)
+<fig/NanoVNA_LPF.png>
+File: fig/NanoVNA_HPF.png Graphic file (type bmp)
+<fig/NanoVNA_HPF.png>
 
-[35] (./report.aux)
+
+[35]
+File: fig/NanoVNA_BPF.png Graphic file (type bmp)
+<fig/NanoVNA_BPF.png>
+File: fig/NanoVNA_BEF.png Graphic file (type bmp)
+<fig/NanoVNA_BEF.png>
+
+
+[36]
+
+[37] (./report.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: C56E6D7E7E2FA570C34EF692C24A78B0;1459.
+(rerunfilecheck)             Checksum: CFE7631BC6476DDA2788C680FDDFA2DF;1573.
  ) 
 Here is how much of TeX's memory you used:
- 28108 strings out of 474243
- 525687 string characters out of 5746674
+ 28136 strings out of 474243
+ 526347 string characters out of 5746674
  1934753 words of memory out of 5000000
- 50454 multiletter control sequences out of 15000+600000
+ 50478 multiletter control sequences out of 15000+600000
  570506 words of font info for 86 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  105i,14n,119p,536b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.dvi (35 pages, 47920 bytes).
+Output written on report.dvi (37 pages, 51464 bytes).

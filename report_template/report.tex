@@ -498,7 +498,36 @@ BEFの入力・出力波形を以下に示す。BEFでは、入力信号と出�
   \label{fig:Original_wave4_BEF}
 \end{figure}
 \wfig{Gaussian_pulse_BEF}から\wfig{Original_wave4_BEF}までの波形を比較すると、BEFによって特定帯域の成分が除去されていることがわかる。
-
+\subsection{周波数特性の測定}
+NanoVNAを用いて測定した各フィルタの周波数特性を以下に示す。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{fig/NanoVNA_LPF.png}
+  \caption{LPFの周波数特性（NanoVNA測定）}
+  \label{fig:NanoVNA_LPF}
+\end{figure}
+\wfig{NanoVNA_LPF}より、LPFの遮断周波数が約150kHzであること、LPFとして機能していることが確認できる。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{fig/NanoVNA_HPF.png}
+  \caption{HPFの周波数特性（NanoVNA測定）}
+  \label{fig:NanoVNA_HPF}
+\end{figure}
+\wfig{NanoVNA_HPF}より、HPFの遮断周波数が約140kHzであること、HPFとして機能していることが確認できる。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{fig/NanoVNA_BPF.png}
+  \caption{BPFの周波数特性（NanoVNA測定）}
+  \label{fig:NanoVNA_BPF}
+\end{figure}
+\wfig{NanoVNA_BPF}より、BPFの通過帯域が約50kHzから200kHzであること、BPFとして機能していることが確認できる。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{fig/NanoVNA_BEF.png}
+  \caption{BEFの周波数特性（NanoVNA測定）}
+  \label{fig:NanoVNA_BEF}
+\end{figure}
+\wfig{NanoVNA_BEF}より、BEFの通過帯域が約100kHzから140kHzであること、BEFとして機能していることが確認できる。
 \section{考察}
 お
 
