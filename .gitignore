@@ -12,6 +12,8 @@
 !report_template/Title.pdf
 !report_template/report.pdf
 
+!program/
+
 # .gitignore自身は共有
 
 # LaTeX一時ファイルをgitで共有しないようにする設定
