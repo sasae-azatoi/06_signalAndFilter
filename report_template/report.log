@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.11.7)  20 JUL 2025 16:57
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.11.7)  20 JUL 2025 17:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,7 +706,16 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count359
 \@lastruleclass=\count360
 \@thisrulewidth=\dimen347
-)) (./report.aux)
+)) (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen348
+\ar@mcellbox=\box95
+\extrarowheight=\dimen349
+\NC@list=\toks47
+\extratabsurround=\skip74
+\backup@length=\skip75
+\ar@cellbox=\box96
+) (./report.aux)
 \openout1 = `report.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -824,50 +833,52 @@ File: fig/BEF.drawio.png Graphic file (type bmp)
 [3]
 File: fig/VNA.drawio.png Graphic file (type bmp)
 <fig/VNA.drawio.png>
+[4]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 121.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 124.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 121.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 124.
 File: graphs/10kHz_LPF_characteristic.png Graphic file (type bmp)
 <graphs/10kHz_LPF_characteristic.png>
 File: graphs/20kHz_LPF_characteristic.png Graphic file (type bmp)
 <graphs/20kHz_LPF_characteristic.png>
-[4] [5]
+[5]
 File: graphs/40kHz_LPF_characteristic.png Graphic file (type bmp)
 <graphs/40kHz_LPF_characteristic.png>
+[6]
 File: graphs/50kHz_LPF_characteristic.png Graphic file (type bmp)
 <graphs/50kHz_LPF_characteristic.png>
-[6]
 File: graphs/80kHz_LPF_characteristic.png Graphic file (type bmp)
 <graphs/80kHz_LPF_characteristic.png>
+[7]
 File: graphs/100kHz_LPF_characteristic.png Graphic file (type bmp)
 <graphs/100kHz_LPF_characteristic.png>
-[7]
 File: graphs/200kHz_LPF_characteristic.png Graphic file (type bmp)
 <graphs/200kHz_LPF_characteristic.png>
+[8]
 File: graphs/400kHz_LPF_characteristic.png Graphic file (type bmp)
 <graphs/400kHz_LPF_characteristic.png>
-[8]
 File: graphs/800kHz_LPF_characteristic.png Graphic file (type bmp)
 <graphs/800kHz_LPF_characteristic.png>
+[9]
 File: graphs/1000kHz_LPF_characteristic.png Graphic file (type bmp)
 <graphs/1000kHz_LPF_characteristic.png>
-[9] [10] (./report.aux)
+[10] [11] (./report.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: B88C73D31707FF8241B063EB3324EE8D;1271.
+(rerunfilecheck)             Checksum: F6E8F23FE1438EBD8827F910F880A252;1378.
  ) 
 Here is how much of TeX's memory you used:
- 27582 strings out of 474773
- 509934 string characters out of 5762001
+ 27643 strings out of 474773
+ 510798 string characters out of 5762001
  1934035 words of memory out of 5000000
- 49447 multiletter control sequences out of 15000+600000
+ 49506 multiletter control sequences out of 15000+600000
  570506 words of font info for 86 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  105i,14n,110p,541b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.dvi (10 pages, 20540 bytes).
+Output written on report.dvi (11 pages, 21000 bytes).

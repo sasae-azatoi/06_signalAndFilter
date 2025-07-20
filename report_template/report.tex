@@ -70,7 +70,7 @@ VirtualBenchを用いて、以下の手順で時間信号を測定した：
 
 \begin{enumerate}
   \item \wfig{実験回路1}に示すとおりに結線した。
-  \item NI VirtualBenchを起動し、DUTとして\wtab{各種LCフィルタ}に示すLPFを接続した。
+  \item DUTとして\wtab{各種LCフィルタ}に示すLPFを接続した。
   \item FGENで正弦波を選択し、$10\,\mathrm{kHz}$から$1\,\mathrm{MHz}$までの周波数、および遮断周波数における入力・出力波形を測定し、数値データとして保存した。
   \item 各班員が用意した任意波形、および班で用意したガウシアンパルスをFGENに設定し、それぞれ測定を行い、数値データとして保存した。
   \item DUTを\wtab{各種LCフィルタ}に示すHPF, BPF, BEFへ変更し、同様の手順で測定を繰り返した。
@@ -87,13 +87,16 @@ VirtualBenchを用いて、以下の手順で時間信号を測定した：
   \centering
   \caption{各種LCフィルタ}
   \label{tab:各種LCフィルタ}
-  \begin{tabular}{|c|c|c|}
+  \begin{tabular}{|c|m{0.22\textwidth}|c|}
     \hline
     フィルタの種類 & 回路図 & 素子値の計算 $f_c$ \\
     \hline
     LPF & \includegraphics[width=0.2\textwidth]{fig/LPF.drawio.png} & $f_c = 150\,\mathrm{kHz}$ \\
+    \hline
     HPF & \includegraphics[width=0.2\textwidth]{fig/HPF.drawio.png} & $f_c = 140\,\mathrm{kHz}$ \\
+    \hline
     BPF & \includegraphics[width=0.2\textwidth]{fig/BPF.drawio.png} & $f_{c1} = 50\,$kHz,$f_{c2} = 200\,$kHz \\
+    \hline
     BEF & \includegraphics[width=0.2\textwidth]{fig/BEF.drawio.png} & $f_{c1} = 100\,$kHz,$f_{c2} = 140\,$kHz \\
     \hline
   \end{tabular}
@@ -103,12 +106,11 @@ NanoVNAを用いてフィルタの周波数特性を測定した。以下の手�
 
 \begin{enumerate}
   \item \wfig{実験回路2}に示すとおりに結線した。
-  \item NanoVNAをPCに接続し、「NanoVNA.exe」を起動した。
   \item ポートをCOM3に設定し、測定周波数範囲を$50\,\mathrm{kHz}$から$1\,\mathrm{MHz}$に設定した。
   \item キャリブレーション（open, short, load, isolation, through）を行い、「save0」に記録した。
   \item DUTとして各フィルタ（LPF, HPF, BPF, BEF）を接続し、測定データを「s2p」形式で保存した。
-\end{enumerate}[H]
-\begin{figure}
+\end{enumerate}
+\begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{fig/VNA.drawio.png}
   \caption{周波数特性測定用の実験回路}
@@ -116,6 +118,7 @@ NanoVNAを用いてフィルタの周波数特性を測定した。以下の手�
 \end{figure}
 
 \section{実験結果}
+<<<<<<< HEAD
 \subsection{時間信号の測定結果}
 
 \subsubsection{2段LPFの測定結果}
@@ -195,6 +198,9 @@ NanoVNAを用いてフィルタの周波数特性を測定した。以下の手�
 
 
 
+=======
+\subsection{時間信号の特性}
+>>>>>>> 7596420087a078a8bebe5ea4aa0539b7653f6a6f
 
 \section{考察}
 お
