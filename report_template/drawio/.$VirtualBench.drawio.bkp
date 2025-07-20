@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2025-07-20T05:00:23.059Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.6.4 Chrome/124.0.6367.207 Electron/30.0.6 Safari/537.36" etag="BDbf9q_d4zBEey1UWFjR" version="24.6.4" type="device">
+  <diagram name="ページ1" id="wrz9HznuApq8OOCvU3rd">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-1" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Contorol PC&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-2" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Virtual bench&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="100" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-4" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="630" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="575" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-7" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="360" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-8" value="&lt;span style=&quot;font-size: 30px;&quot;&gt;DUT&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="295" y="425" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="485" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="295" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-11" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="295" y="470" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C8o-LqO9DgwM4HTOgdJM-12" value="&lt;font style=&quot;font-size: 30px;&quot;&gt;Load&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="380" width="160" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
