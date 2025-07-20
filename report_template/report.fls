@@ -319,6 +319,12 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+INPUT ./report.out
+INPUT ./report.out
+INPUT report.out
+INPUT report.out
+INPUT ./report.out
+INPUT ./report.out
 OUTPUT report.out
 INPUT ./Title.pdf
 INPUT ./Title.pdf
@@ -358,9 +364,6 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT ./fig/VirtualBench.drawio.png
 INPUT ./fig/VirtualBench.drawio.png
 INPUT ./fig/VirtualBench.drawio.png
@@ -385,4 +388,69 @@ INPUT ./fig/VNA.drawio.png
 INPUT ./fig/VNA.drawio.png
 INPUT ./fig/VNA.drawio.png
 INPUT extractbb -B cropbox -O fig/VNA.drawio.png
-INPUT extractbb -B cropbox -O graphs/10kHz_LPF_characteristic.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./fig/10kHz_LPF_characteristic.png
+INPUT ./fig/10kHz_LPF_characteristic.png
+INPUT ./fig/10kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/10kHz_LPF_characteristic.png
+INPUT ./fig/20kHz_LPF_characteristic.png
+INPUT ./fig/20kHz_LPF_characteristic.png
+INPUT ./fig/20kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/20kHz_LPF_characteristic.png
+INPUT ./fig/40kHz_LPF_characteristic.png
+INPUT ./fig/40kHz_LPF_characteristic.png
+INPUT ./fig/40kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/40kHz_LPF_characteristic.png
+INPUT ./fig/50kHz_LPF_characteristic.png
+INPUT ./fig/50kHz_LPF_characteristic.png
+INPUT ./fig/50kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/50kHz_LPF_characteristic.png
+INPUT ./fig/80kHz_LPF_characteristic.png
+INPUT ./fig/80kHz_LPF_characteristic.png
+INPUT ./fig/80kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/80kHz_LPF_characteristic.png
+INPUT ./fig/100kHz_LPF_characteristic.png
+INPUT ./fig/100kHz_LPF_characteristic.png
+INPUT ./fig/100kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/100kHz_LPF_characteristic.png
+INPUT ./fig/150kHz_LPF_characteristic.png
+INPUT ./fig/150kHz_LPF_characteristic.png
+INPUT ./fig/150kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/150kHz_LPF_characteristic.png
+INPUT ./fig/200kHz_LPF_characteristic.png
+INPUT ./fig/200kHz_LPF_characteristic.png
+INPUT ./fig/200kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/200kHz_LPF_characteristic.png
+INPUT ./fig/400kHz_LPF_characteristic.png
+INPUT ./fig/400kHz_LPF_characteristic.png
+INPUT ./fig/400kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/400kHz_LPF_characteristic.png
+INPUT ./fig/1000kHz_LPF_characteristic.png
+INPUT ./fig/1000kHz_LPF_characteristic.png
+INPUT ./fig/1000kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/1000kHz_LPF_characteristic.png
+INPUT ./fig/Gaussian_pulse_LPF_characteristic.png
+INPUT ./fig/Gaussian_pulse_LPF_characteristic.png
+INPUT ./fig/Gaussian_pulse_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Gaussian_pulse_LPF_characteristic.png
+INPUT ./fig/Original_wave1_LPF_characteristic.png
+INPUT ./fig/Original_wave1_LPF_characteristic.png
+INPUT ./fig/Original_wave1_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave1_LPF_characteristic.png
+INPUT ./fig/Original_wave2_LPF_characteristic.png
+INPUT ./fig/Original_wave2_LPF_characteristic.png
+INPUT ./fig/Original_wave2_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave2_LPF_characteristic.png
+INPUT ./fig/Original_wave3_LPF_characteristic.png
+INPUT ./fig/Original_wave3_LPF_characteristic.png
+INPUT ./fig/Original_wave3_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave3_LPF_characteristic.png
+INPUT ./fig/Original_wave4_LPF_characteristic.png
+INPUT ./fig/Original_wave4_LPF_characteristic.png
+INPUT ./fig/Original_wave4_LPF_characteristic.png
+INPUT extractbb -B cropbox -O fig/Original_wave4_LPF_characteristic.png
+INPUT report.aux
+INPUT ./report.out
+INPUT ./report.out

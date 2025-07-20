@@ -24,6 +24,9 @@ report_template/*.fls
 report_template/*.log
 report_template/*.out
 report_template/*.synctex.gz
+report_template/*.toc
+report_template/*.nav
+report_template/*.snm
 
 # Python仮想環境をgit管理対象外にする
 program/venv/
