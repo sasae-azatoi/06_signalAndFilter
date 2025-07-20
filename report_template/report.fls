@@ -362,6 +362,30 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT ./fig/VirtualBench.drawio.png
+INPUT ./fig/VirtualBench.drawio.png
+INPUT ./fig/VirtualBench.drawio.png
+INPUT extractbb -B cropbox -O fig/VirtualBench.drawio.png
+INPUT ./fig/LPF.drawio.png
+INPUT ./fig/LPF.drawio.png
+INPUT ./fig/LPF.drawio.png
+INPUT extractbb -B cropbox -O fig/LPF.drawio.png
+INPUT ./fig/HPF.drawio.png
+INPUT ./fig/HPF.drawio.png
+INPUT ./fig/HPF.drawio.png
+INPUT extractbb -B cropbox -O fig/HPF.drawio.png
+INPUT ./fig/BPF.drawio.png
+INPUT ./fig/BPF.drawio.png
+INPUT ./fig/BPF.drawio.png
+INPUT extractbb -B cropbox -O fig/BPF.drawio.png
+INPUT ./fig/BEF.drawio.png
+INPUT ./fig/BEF.drawio.png
+INPUT ./fig/BEF.drawio.png
+INPUT extractbb -B cropbox -O fig/BEF.drawio.png
+INPUT ./fig/VNA.drawio.png
+INPUT ./fig/VNA.drawio.png
+INPUT ./fig/VNA.drawio.png
+INPUT extractbb -B cropbox -O fig/VNA.drawio.png
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out

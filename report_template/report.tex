@@ -68,24 +68,51 @@ F_k = \sum_{n=0}^{N-1} f_n e^{-j \frac{2\pi kn}{N}}
 VirtualBenchを用いて、以下の手順で時間信号を測定した：
 
 \begin{enumerate}
-  \item NI VirtualBenchを起動し、DUTとしてLPFを接続した。
+  \item \wfig{実験回路1}に示すとおりに結線した。
+  \item NI VirtualBenchを起動し、DUTとして\wtab{各種LCフィルタ}に示すLPFを接続した。
   \item FGENで正弦波を選択し、$10\,\mathrm{kHz}$から$1\,\mathrm{MHz}$までの周波数、および遮断周波数における入力・出力波形を測定し、数値データとして保存した。
   \item 各班員が用意した任意波形、および班で用意したガウシアンパルスをFGENに設定し、それぞれ測定を行い、数値データとして保存した。
-  \item DUTをHPF, BPF, BEFへ変更し、同様の手順で測定を繰り返した。
+  \item DUTを\wtab{各種LCフィルタ}に示すHPF, BPF, BEFへ変更し、同様の手順で測定を繰り返した。
   \item 測定結果から、各周波数における振幅比（dB）および位相差を計算し、グラフを作成した。
   \item 任意波形およびガウシアンパルスについては、入力信号と出力信号を同一グラフにプロットし、波形の変化を確認できるようにした。
 \end{enumerate}
-
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{fig/VirtualBench.drawio.png}
+  \caption{時間信号測定用の実験回路}
+  \label{fig:実験回路1}  
+\end{figure}
+\begin{table}[H]
+  \centering
+  \caption{各種LCフィルタ}
+  \label{tab:各種LCフィルタ}
+  \begin{tabular}{|c|c|c|}
+    \hline
+    フィルタの種類 & 回路図 & 素子値の計算 $f_c$ \\
+    \hline
+    LPF & \includegraphics[width=0.2\textwidth]{fig/LPF.drawio.png} & $f_c = 150\,\mathrm{kHz}$ \\
+    HPF & \includegraphics[width=0.2\textwidth]{fig/HPF.drawio.png} & $f_c = 140\,\mathrm{kHz}$ \\
+    BPF & \includegraphics[width=0.2\textwidth]{fig/BPF.drawio.png} & $f_{c1} = 50\,$kHz,$f_{c2} = 200\,$kHz \\
+    BEF & \includegraphics[width=0.2\textwidth]{fig/BEF.drawio.png} & $f_{c1} = 100\,$kHz,$f_{c2} = 140\,$kHz \\
+    \hline
+  \end{tabular}
+\end{table}
 \subsection{周波数特性の測定}
 NanoVNAを用いてフィルタの周波数特性を測定した。以下の手順で実施した：
 
 \begin{enumerate}
+  \item \wfig{実験回路2}に示すとおりに結線した。
   \item NanoVNAをPCに接続し、「NanoVNA.exe」を起動した。
   \item ポートをCOM3に設定し、測定周波数範囲を$50\,\mathrm{kHz}$から$1\,\mathrm{MHz}$に設定した。
   \item キャリブレーション（open, short, load, isolation, through）を行い、「save0」に記録した。
   \item DUTとして各フィルタ（LPF, HPF, BPF, BEF）を接続し、測定データを「s2p」形式で保存した。
-\end{enumerate}
-
+\end{enumerate}[H]
+\begin{figure}
+  \centering
+  \includegraphics[width=0.8\textwidth]{fig/VNA.drawio.png}
+  \caption{周波数特性測定用の実験回路}
+  \label{fig:実験回路2}
+\end{figure}
 
 \section{実験結果}
 え
