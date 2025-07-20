@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.11.7)  20 JUL 2025 16:04
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.11.7)  20 JUL 2025 16:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -709,28 +709,28 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 )) (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
 * driver: dvipdfm
@@ -775,13 +775,13 @@ Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 (c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
 ))
-Package hyperref Info: Link coloring OFF on input line 16.
+Package hyperref Info: Link coloring OFF on input line 17.
 (./report.out) (./report.out)
 \@outlinefile=\write4
 \openout4 = `report.out'.
 
 
-Package chemgreek Info: Activating mapping `default' on line 16.
+Package chemgreek Info: Activating mapping `default' on line 17.
 
 File: Title.pdf Graphic file (type pdf)
 <Title.pdf>
@@ -796,18 +796,18 @@ File: Title.pdf Graphic file (type pdf)
 
 ]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 23.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 23.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 24.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 28.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 29.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 28.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 30.
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 30.
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2]
@@ -824,22 +824,50 @@ File: fig/BEF.drawio.png Graphic file (type bmp)
 [3]
 File: fig/VNA.drawio.png Graphic file (type bmp)
 <fig/VNA.drawio.png>
-[4] [5] (./report.aux)
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 121.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 121.
+File: graphs/10kHz_LPF_characteristic.png Graphic file (type bmp)
+<graphs/10kHz_LPF_characteristic.png>
+File: graphs/20kHz_LPF_characteristic.png Graphic file (type bmp)
+<graphs/20kHz_LPF_characteristic.png>
+[4] [5]
+File: graphs/40kHz_LPF_characteristic.png Graphic file (type bmp)
+<graphs/40kHz_LPF_characteristic.png>
+File: graphs/50kHz_LPF_characteristic.png Graphic file (type bmp)
+<graphs/50kHz_LPF_characteristic.png>
+[6]
+File: graphs/80kHz_LPF_characteristic.png Graphic file (type bmp)
+<graphs/80kHz_LPF_characteristic.png>
+File: graphs/100kHz_LPF_characteristic.png Graphic file (type bmp)
+<graphs/100kHz_LPF_characteristic.png>
+[7]
+File: graphs/200kHz_LPF_characteristic.png Graphic file (type bmp)
+<graphs/200kHz_LPF_characteristic.png>
+File: graphs/400kHz_LPF_characteristic.png Graphic file (type bmp)
+<graphs/400kHz_LPF_characteristic.png>
+[8]
+File: graphs/800kHz_LPF_characteristic.png Graphic file (type bmp)
+<graphs/800kHz_LPF_characteristic.png>
+File: graphs/1000kHz_LPF_characteristic.png Graphic file (type bmp)
+<graphs/1000kHz_LPF_characteristic.png>
+[9] [10] (./report.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 953B873B763186CAFB26021A91A54261;1141.
+(rerunfilecheck)             Checksum: B88C73D31707FF8241B063EB3324EE8D;1271.
  ) 
 Here is how much of TeX's memory you used:
- 27503 strings out of 474773
- 507185 string characters out of 5762001
- 1933035 words of memory out of 5000000
- 49381 multiletter control sequences out of 15000+600000
- 569735 words of font info for 83 fonts, out of 8000000 for 9000
+ 27582 strings out of 474773
+ 509934 string characters out of 5762001
+ 1934035 words of memory out of 5000000
+ 49447 multiletter control sequences out of 15000+600000
+ 570506 words of font info for 86 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  105i,14n,110p,541b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.dvi (5 pages, 15116 bytes).
+Output written on report.dvi (10 pages, 20540 bytes).

@@ -1,12 +1,12 @@
 # Fdb version 4
-["dvipdf"] 1752995100.44838 "report.dvi" "report.pdf" "report" 1752995101.45249 0
-  "report.dvi" 1752995100 15116 860a4f4db6cf3947610fd4e7c46caff8 "latex"
+["dvipdf"] 1752998265.3771 "report.dvi" "report.pdf" "report" 1752998278.33176 0
+  "report.dvi" 1752998265 20540 b71c0a596bf1f6d9a5acbce93420b266 "latex"
   (generated)
   "report.pdf"
   (rewritten before read)
-["latex"] 1752995094.29568 "c:/Users/iorii/Documents/4_6フィルタ/06_signalAndFilter/report_template/report.tex" "report.dvi" "report" 1752995101.44314 0
+["latex"] 1752998255.12934 "c:/Users/iorii/Documents/4_6フィルタ/06_signalAndFilter/report_template/report.tex" "report.dvi" "report" 1752998278.32179 0
   "Title.pdf" 1752818772 45369 3ddb88d9064bca729b1f26d3a28369d5 ""
-  "c:/Users/iorii/Documents/4_6フィルタ/06_signalAndFilter/report_template/report.tex" 1752995087 5534 32d79154dca4b7530d9ffd65d5427062 ""
+  "c:/Users/iorii/Documents/4_6フィルタ/06_signalAndFilter/report_template/report.tex" 1752998243 7731 ee5ebc196e56a652341fb6fe9490a5f9 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1730981287 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1730983708 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1730983708 1196 1be730212205a270378fba11a44765dc ""
@@ -20,6 +20,7 @@
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1730980609 928 2dc8d444221b7a635bb58038579b861a ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1730980609 908 2921f8a10601f252058503cc6570e581 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1730980609 940 228d6584342e91276bf566bcf9716b83 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1730980865 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1730980865 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1730980865 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1730980865 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -199,11 +200,21 @@
   "fig/LPF.drawio.png" 1752994184 9918 45c5f0cf9f1b3258fc353da794a8dbbc ""
   "fig/VNA.drawio.png" 1752994184 38748 a70e2abe564a49deda3a0715304c9840 ""
   "fig/VirtualBench.drawio.png" 1752994184 46618 13b30a28464da49647a529b6373fb940 ""
+  "graphs/1000kHz_LPF_characteristic.png" 1752997483 259714 0ed79b33153c28073eaee5343fde80a1 ""
+  "graphs/100kHz_LPF_characteristic.png" 1752997485 304431 311b519f88030bdeb7b19bde4109a1eb ""
+  "graphs/10kHz_LPF_characteristic.png" 1752997486 302037 7dabcd762813a0c727b177a77153dd86 ""
+  "graphs/200kHz_LPF_characteristic.png" 1752997488 288026 b0eaf916234313f1045f524ce2aeead7 ""
+  "graphs/20kHz_LPF_characteristic.png" 1752997490 245124 c16415faf124235e0089d3fe5b5f02d9 ""
+  "graphs/400kHz_LPF_characteristic.png" 1752997493 291160 4c59f188ab69e8a7debd105818e2cac4 ""
+  "graphs/40kHz_LPF_characteristic.png" 1752997495 301714 d40dd022b51aa68eb055b3490afa3a79 ""
+  "graphs/50kHz_LPF_characteristic.png" 1752997497 330584 d248596abeef29d848466a44bed6b990 ""
+  "graphs/800kHz_LPF_characteristic.png" 1752997499 269844 b0b0e38389b6e89721ca4259fb7488fa ""
+  "graphs/80kHz_LPF_characteristic.png" 1752997501 284505 79d42f154dee2de0702aa93d2abdb24d ""
   "jlisting.sty" 1752818772 6527 39acaca7319a5dae73524888cbf7591f ""
   "mymacros.sty" 1752818772 489 3ad07885ee61c18411ac714e9184143b ""
-  "report.aux" 1752995100 2499 08189c26f95f518ae7527aab1487c7a1 "latex"
-  "report.out" 1752995100 1141 953b873b763186cafb26021a91a54261 "latex"
-  "report.tex" 1752995087 5534 32d79154dca4b7530d9ffd65d5427062 ""
+  "report.aux" 1752998265 5316 083e84b23573601d140ae3ca2cb38e56 "latex"
+  "report.out" 1752998265 1271 b88c73d31707ff8241b063eb3324ee8d "latex"
+  "report.tex" 1752998243 7731 ee5ebc196e56a652341fb6fe9490a5f9 ""
   (generated)
   "report.aux"
   "report.dvi"

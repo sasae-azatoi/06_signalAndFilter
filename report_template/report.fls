@@ -386,6 +386,49 @@ INPUT ./fig/VNA.drawio.png
 INPUT ./fig/VNA.drawio.png
 INPUT ./fig/VNA.drawio.png
 INPUT extractbb -B cropbox -O fig/VNA.drawio.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./graphs/10kHz_LPF_characteristic.png
+INPUT ./graphs/10kHz_LPF_characteristic.png
+INPUT ./graphs/10kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O graphs/10kHz_LPF_characteristic.png
+INPUT ./graphs/20kHz_LPF_characteristic.png
+INPUT ./graphs/20kHz_LPF_characteristic.png
+INPUT ./graphs/20kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O graphs/20kHz_LPF_characteristic.png
+INPUT ./graphs/40kHz_LPF_characteristic.png
+INPUT ./graphs/40kHz_LPF_characteristic.png
+INPUT ./graphs/40kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O graphs/40kHz_LPF_characteristic.png
+INPUT ./graphs/50kHz_LPF_characteristic.png
+INPUT ./graphs/50kHz_LPF_characteristic.png
+INPUT ./graphs/50kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O graphs/50kHz_LPF_characteristic.png
+INPUT ./graphs/80kHz_LPF_characteristic.png
+INPUT ./graphs/80kHz_LPF_characteristic.png
+INPUT ./graphs/80kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O graphs/80kHz_LPF_characteristic.png
+INPUT ./graphs/100kHz_LPF_characteristic.png
+INPUT ./graphs/100kHz_LPF_characteristic.png
+INPUT ./graphs/100kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O graphs/100kHz_LPF_characteristic.png
+INPUT ./graphs/200kHz_LPF_characteristic.png
+INPUT ./graphs/200kHz_LPF_characteristic.png
+INPUT ./graphs/200kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O graphs/200kHz_LPF_characteristic.png
+INPUT ./graphs/400kHz_LPF_characteristic.png
+INPUT ./graphs/400kHz_LPF_characteristic.png
+INPUT ./graphs/400kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O graphs/400kHz_LPF_characteristic.png
+INPUT ./graphs/800kHz_LPF_characteristic.png
+INPUT ./graphs/800kHz_LPF_characteristic.png
+INPUT ./graphs/800kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O graphs/800kHz_LPF_characteristic.png
+INPUT ./graphs/1000kHz_LPF_characteristic.png
+INPUT ./graphs/1000kHz_LPF_characteristic.png
+INPUT ./graphs/1000kHz_LPF_characteristic.png
+INPUT extractbb -B cropbox -O graphs/1000kHz_LPF_characteristic.png
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out
