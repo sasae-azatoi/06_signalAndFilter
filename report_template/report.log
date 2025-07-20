@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.20)  20 JUL 2025 18:17
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.20)  20 JUL 2025 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -899,23 +899,76 @@ File: fig/Original_wave4_LPF_characteristic.png Graphic file (type bmp)
 
 
 [12]
+File: fig/10kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/10kHz_HPF_characteristic.png>
+File: fig/20kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/20kHz_HPF_characteristic.png>
+File: fig/40kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/40kHz_HPF_characteristic.png>
 
-[13] (./report.aux)
+
+[13]
+File: fig/50kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/50kHz_HPF_characteristic.png>
+File: fig/80kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/80kHz_HPF_characteristic.png>
+
+
+[14]
+File: fig/100kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/100kHz_HPF_characteristic.png>
+File: fig/140kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/140kHz_HPF_characteristic.png>
+
+
+[15]
+File: fig/200kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/200kHz_HPF_characteristic.png>
+File: fig/400kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/400kHz_HPF_characteristic.png>
+
+
+[16]
+File: fig/1000kHz_HPF_characteristic.png Graphic file (type bmp)
+<fig/1000kHz_HPF_characteristic.png>
+
+
+[17]
+File: fig/Gaussian_pulse_HPF_characteristic.png Graphic file (type bmp)
+<fig/Gaussian_pulse_HPF_characteristic.png>
+File: fig/Original_wave1_HPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave1_HPF_characteristic.png>
+File: fig/Original_wave2_HPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave2_HPF_characteristic.png>
+
+
+[18]
+File: fig/Original_wave3_HPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave3_HPF_characteristic.png>
+File: fig/Original_wave4_HPF_characteristic.png Graphic file (type bmp)
+<fig/Original_wave4_HPF_characteristic.png>
+
+
+[19]
+
+[20]
+
+[21] (./report.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 08EC05078920E650796AF06720A90DE7;1210.
+(rerunfilecheck)             Checksum: C57E6FA16B2B2C8B672B8DB640EA3739;1293.
  ) 
 Here is how much of TeX's memory you used:
- 27785 strings out of 474243
- 513743 string characters out of 5746674
+ 27905 strings out of 474243
+ 517991 string characters out of 5746674
  1934753 words of memory out of 5000000
- 50175 multiletter control sequences out of 15000+600000
+ 50280 multiletter control sequences out of 15000+600000
  570506 words of font info for 86 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  105i,14n,119p,536b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.dvi (13 pages, 22660 bytes).
+Output written on report.dvi (21 pages, 32116 bytes).
