@@ -386,9 +386,6 @@ INPUT ./fig/VNA.drawio.png
 INPUT ./fig/VNA.drawio.png
 INPUT ./fig/VNA.drawio.png
 INPUT extractbb -B cropbox -O fig/VNA.drawio.png
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out
