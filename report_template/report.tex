@@ -11,8 +11,8 @@
 \usepackage{multirow}
 \usepackage{adjustbox}
 \usepackage{url}
-\usepackage{here}
 \usepackage{mymacros}
+\usepackage{here}
 
 \begin{document}
 
@@ -183,7 +183,7 @@ LPFの入力・出力波形を以下に示す。LPFでは、入力信号と出�
   \caption{1000kHz LPF波形}
   \label{fig:1000kHz_LPF}
 \end{figure}
-\wfig{10kHz_LPF}から\wfig{1000kHz_LPF}より、200kHzまでは入力と出力の振幅の性殆どないが、400kHzを超えると出力側の振幅が減少しているのがわかる。
+\wfig{10kHz_LPF}から\wfig{1000kHz_LPF}より、100kHzまでは入力と出力の振幅の性殆どないが、150kHzを超えると出力側の振幅が減少しているのがわかる。
 
 \begin{figure}[H]
   \centering
@@ -529,10 +529,18 @@ NanoVNAを用いて測定した各フィルタの周波数特性を以下に示�
 \end{figure}
 \wfig{NanoVNA_BEF}より、BEFの通過帯域が約100kHzから140kHzであること、BEFとして機能していることが確認できる。
 \section{考察}
-\subsection{フィルタの実例}
+\subsection{フィルタ(ノイズ除去)の実例を示せ}
+
+\subsubsection{horlabs社の製品のBNC型ローパスフィルターとBNC型ハイパスフィルター}
+この2つの製品はBNCコネクタを持つパッシブフィルターであり、主にオシロスコープに接続して使用される。
+
+\subsubsection{MJCETの研究であるBEFフィルタを用いた60 Hzの電源ノイズ除去}
+
+この研究では、BEFフィルタを用いて60 Hzの電源ノイズを除去する方法が提案されている。特に医療現場での心電図（ECG）信号のノイズ除去に焦点を当てており、
+高品質、低サイズ、低消費電力での設計がされている。
 
 \subsection{時間信号の考察}
-
+\wfig{10kHz_LPF}から\wfig{1000kHz_LPF}より、周波数が150\ kHz
 \subsection{周波数特性の考察}
 
 \subsection{時間信号と周波数特性の比較}
@@ -547,24 +555,24 @@ NanoVNAを用いて測定した各フィルタの周波数特性を以下に示�
 以上の理由から、本実験ではガウシアンパルスを用いて時間信号の測定を行ったと考えられる
 \subsection{Sパラメータの調査}
 
-\subsection{動画\url{(https://www.nicovideo.jp/watch/sm32671229)}とフーリエ級数展開の関係}
-この動画とフーリエ級数展開の関係を説明するにあたって、まず離散フーリエ変換と図の描画について説明する。
+\subsection{動画とフーリエ級数展開の関係}
+動画\footnote{\url{https://www.nicovideo.jp/watch/sm32671229}}とフーリエ級数展開の関係を説明するにあたって、まず離散フーリエ変換と図の描画について説明する。
 描画したい図を点の集合とし、それぞれの点を複素平面的に考えx+jyの形にする。
 それらの点は連続しているためx座標に関する式とy座標に関する式の2つが立式できる。
 これらの式をフーリエ係数に変換するのが離散フーリエ変換である。
 また、図の再構成はこうして得られたフーリエ係数を逆離散フーリエ変換することで可能である。
 そうすることでフーリエ係数で定義された正弦波と余弦波を合成した一つの式を導ける。
-これらの関係により、任意の図形をフーリエ級数の形で表現し、動画のように再現することが可能になる。
-
+これらの
 \subsection{独自考察}
-
 \section{結論}
+か
 
 \section{謝辞}
+き
 
 
 \begin{thebibliography}{99}
-\bibitem{1} 古川 浩洋，""高専男子学生の体格と運動能力に関する研究""，論文集「高専教育」，p. 151-158，1998.
+\bibitem{1} Maliha Naaz，Mohammed Arifuddin Sohel，Kaleem Fatima，M.A. Raheem：低消費電力ノッチフィルタの生体医療応用への設計，International Journal of Innovative Research in Electrical, Electronics, Instrumentation and Control Engineering, Vol.4, No.12, pp.75–79 (2016). DOI: 10.17148/IJIREEICE.2016.41215
 \end{thebibliography}
 
 \end{document}

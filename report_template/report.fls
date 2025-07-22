@@ -204,8 +204,6 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/here/here.sty
-INPUT c:/texlive/2024/texmf-dist/tex/latex/here/here.sty
 INPUT ./mymacros.sty
 INPUT mymacros.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/xurl/xurl.sty
@@ -288,6 +286,8 @@ INPUT c:/texlive/2024/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandler
 INPUT c:/texlive/2024/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 INPUT c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 INPUT c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+INPUT c:/texlive/2024/texmf-dist/tex/latex/here/here.sty
+INPUT c:/texlive/2024/texmf-dist/tex/latex/here/here.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -319,6 +319,13 @@ INPUT c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 INPUT c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+INPUT ./report.out
+INPUT ./report.out
+INPUT report.out
+INPUT report.out
+INPUT ./report.out
+INPUT ./report.out
+OUTPUT report.out
 INPUT ./Title.pdf
 INPUT ./Title.pdf
 INPUT extractbb -O Title.pdf
@@ -636,10 +643,19 @@ INPUT ./fig/NanoVNA_BEF.png
 INPUT ./fig/NanoVNA_BEF.png
 INPUT ./fig/NanoVNA_BEF.png
 INPUT extractbb -B cropbox -O fig/NanoVNA_BEF.png
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin9.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/min9.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin6.tfm
 INPUT report.aux
+INPUT ./report.out
+INPUT ./report.out

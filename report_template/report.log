@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.21)  22 JUL 2025 12:54
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.21)  22 JUL 2025 13:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -481,7 +481,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 )) (c:/texlive/2024/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (c:/texlive/2024/texmf-dist/tex/latex/here/here.sty) (./mymacros.sty (c:/texlive/2024/texmf-dist/tex/latex/xurl/xurl.sty
+) (./mymacros.sty (c:/texlive/2024/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (c:/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
@@ -535,15 +535,13 @@ File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `bookmarks' set `false' on input line 4040.
-Package hyperref Info: Option `unicode' set `true' on input line 4040.
 Package hyperref Info: Hyper figures OFF on input line 4157.
 Package hyperref Info: Link nesting OFF on input line 4162.
 Package hyperref Info: Hyper index ON on input line 4165.
 Package hyperref Info: Plain pages OFF on input line 4172.
 Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks OFF on input line 4430.
+Package hyperref Info: Bookmarks ON on input line 4424.
 \c@Hy@tempcnt=\count331
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen310
@@ -627,7 +625,7 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikz@expandcount=\count348
 (c:/texlive/2024/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (c:/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
+))) (c:/texlive/2024/texmf-dist/tex/latex/here/here.sty) (c:/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
 (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-05-27 L3 programming layer (loader) 
@@ -786,6 +784,10 @@ Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
 ))
 Package hyperref Info: Link coloring OFF on input line 17.
+(./report.out) (./report.out)
+\@outlinefile=\write4
+\openout4 = `report.out'.
+
 
 Package chemgreek Info: Activating mapping `default' on line 17.
 
@@ -1065,9 +1067,6 @@ File: fig/NanoVNA_BEF.png Graphic file (type bmp)
 
 
 [36]
-LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 550.
-
 
 [37]
 
@@ -1077,14 +1076,16 @@ pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 5994B66AA3CCC750D58FDC0E7F960958;3351.
  ) 
 Here is how much of TeX's memory you used:
- 28130 strings out of 474243
- 526294 string characters out of 5746674
- 1933753 words of memory out of 5000000
- 50475 multiletter control sequences out of 15000+600000
- 571922 words of font info for 92 fonts, out of 8000000 for 9000
+ 28163 strings out of 474243
+ 526606 string characters out of 5746674
+ 1934753 words of memory out of 5000000
+ 50495 multiletter control sequences out of 15000+600000
+ 573537 words of font info for 99 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 105i,14n,119p,536b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 105i,14n,119p,536b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.dvi (38 pages, 53624 bytes).
+Output written on report.dvi (38 pages, 58824 bytes).
