@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.21)  22 JUL 2025 13:48
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.21)  22 JUL 2025 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1070,22 +1070,24 @@ File: fig/NanoVNA_BEF.png Graphic file (type bmp)
 
 [37]
 
-[38] (./report.aux)
+[38]
+
+[39] (./report.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 5994B66AA3CCC750D58FDC0E7F960958;3351.
+(rerunfilecheck)             Checksum: B0578F169CF1C3A7C56210FD494CA80F;3683.
  ) 
 Here is how much of TeX's memory you used:
- 28163 strings out of 474243
- 526606 string characters out of 5746674
+ 28164 strings out of 474243
+ 526622 string characters out of 5746674
  1934753 words of memory out of 5000000
- 50495 multiletter control sequences out of 15000+600000
+ 50496 multiletter control sequences out of 15000+600000
  573537 words of font info for 99 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  105i,14n,119p,536b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.dvi (38 pages, 58824 bytes).
+Output written on report.dvi (39 pages, 61860 bytes).
