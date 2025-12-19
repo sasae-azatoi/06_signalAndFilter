@@ -28,40 +28,40 @@
 
 \subsection{フーリエ級数}
 周期 $T$ の周期関数 $f(t)$ は、以下のような三角関数の級数で表される：
-\begin{align}
+\begin{eqnarray}
 f(t) = a_0 + \sum_{n=1}^{\infty} a_n \cos \frac{2\pi nt}{T} + \sum_{n=1}^{\infty} b_n \sin \frac{2\pi nt}{T}
-\end{align}
+\end{eqnarray}
 
 各係数は以下のように求められる：
-\begin{align}
-a_0 &= \frac{1}{T} \int_{-T/2}^{T/2} f(t) dt \\
-a_n &= \frac{2}{T} \int_{-T/2}^{T/2} f(t) \cos \frac{2\pi nt}{T} dt \\
-b_n &= \frac{2}{T} \int_{-T/2}^{T/2} f(t) \sin \frac{2\pi nt}{T} dt
-\end{align}
+\begin{eqnarray}
+a_0 &=& \frac{1}{T} \int_{-T/2}^{T/2} f(t) dt \\
+a_n &=& \frac{2}{T} \int_{-T/2}^{T/2} f(t) \cos \frac{2\pi nt}{T} dt \\
+b_n &=& \frac{2}{T} \int_{-T/2}^{T/2} f(t) \sin \frac{2\pi nt}{T} dt
+\end{eqnarray}
 
 \subsection{伝達関数とRCフィルタ}
 線形システムの動作は伝達関数によって記述され、周波数 $f_n$ に対して次のように定義される：
-\begin{align}
+\begin{eqnarray}
 H(f_n) = |H(f_n)| e^{j\theta(f_n)}
-\end{align}
+\end{eqnarray}
 
 RC低域通過フィルタ（LPF）の伝達関数は、
-\begin{align}
+\begin{eqnarray}
 H(f) = \frac{1}{1 + j\frac{f}{f_1}}
-\end{align}
+\end{eqnarray}
 ただし、$f_1 = \frac{1}{2\pi RC}$ は遮断周波数である。
 
 RC高域通過フィルタ（HPF）の伝達関数は、
-\begin{align}
+\begin{eqnarray}
 H(f) = \frac{1}{1 + j\frac{f_2}{f}}
-\end{align}
+\end{eqnarray}
 ただし、$f_2 = \frac{1}{2\pi RC}$ である。
 
 \subsection{離散フーリエ変換（DFT）}
 時間領域の離散信号 $f_n$ に対して、離散フーリエ変換は以下の式で与えられる：
-\begin{align}
+\begin{eqnarray}
 F_k = \sum_{n=0}^{N-1} f_n e^{-j \frac{2\pi kn}{N}}
-\end{align}
+\end{eqnarray}
 
 \section{実験方法}
 
@@ -566,7 +566,56 @@ NanoVNAを用いて測定した各フィルタの周波数特性を以下に示�
 また、その形状はガウス関数で表され、微分や積分が容易であるため、データ解析や理論モデルとの比較をシンプルに行える。
 さらに、パルスがなめらかでオーバーシュートやリンギングが発生しないため、信号の歪みを最小限に抑えたい精密な実験に適している。
 以上の理由から、本実験ではガウシアンパルスを用いて時間信号の測定を行ったと考えられる
-\subsection{Sパラメータの調査}
+
+\subsection{Sパラメータについて調査せよ}
+
+Sパラメータ（Scattering Parameter）は、主に高周波回路やマイクロ波回路において、回路ネットワークに入射する波（進行波）と、反射される波（反射波）との関係を表すパラメータである。通常の低周波回路では電圧や電流を用いて解析を行うが、高周波領域ではインピーダンスの影響が大きく、進行波・反射波の観点から解析する方が適している。
+
+Sパラメータは、各ポートに入射する波と反射する波の関係を以下のように行列表現で表す。
+
+\begin{eqnarray}
+\begin{bmatrix}
+b_1 \\
+b_2 \\
+\end{bmatrix}
+=
+\begin{bmatrix}
+S_{11} & S_{12} \\
+S_{21} & S_{22} \\
+\end{bmatrix}
+\begin{bmatrix}
+a_1 \\
+a_2 \\
+\end{bmatrix}
+\end{eqnarray}
+
+ここで、
+\begin{itemize}
+  \item $a_1, a_2$：各ポートへの入射波（進行波）
+  \item $b_1, b_2$：各ポートからの反射波
+  \item $S_{ij}$：$j$番ポートからの入力に対して$i$番ポートで観測される出力（散乱係数）
+\end{itemize}
+
+\subsubsection{2ポートネットワークの各成分の意味}
+2ポートの回路におけるSパラメータの各要素は、次のような物理的意味を持つ。
+
+\begin{itemize}
+  \item $S_{11}$：ポート1から入力した信号が、ポート1でどれだけ反射されるか（入力反射係数）
+  \item $S_{21}$：ポート1から入力した信号が、ポート2へどれだけ伝送されるか（伝送係数）
+  \item $S_{12}$：ポート2から入力した信号が、ポート1へどれだけ伝送されるか（逆方向伝送係数）
+  \item $S_{22}$：ポート2から入力した信号が、ポート2でどれだけ反射されるか（出力反射係数）
+\end{itemize}
+
+\subsubsection{フィルタ回路への応用}
+LC（インダクタとコンデンサ）を用いたアナログフィルタでは、周波数特性に基づいて特定の周波数帯の信号を通過または遮断する。Sパラメータを用いることで、これらの周波数依存特性を評価できる。
+
+特に$S_{21}$は、入力から出力へ信号がどの程度透過したかを示すものであり、ローパスフィルタやバンドパスフィルタの伝送特性を示すのに有用である。一般に、$|S_{21}|$をdBスケールで次のように表す。
+
+\begin{eqnarray}
+|S_{21}|_{\mathrm{dB}} = 20 \log_{10} |S_{21}|
+\end{eqnarray}
+
+このグラフをプロットすることで、通過帯域（通る周波数）、阻止帯域（遮断される周波数）などの性能評価が可能となる。
 
 \subsection{動画とフーリエ級数展開の関係}
 動画\footnote{\url{https://www.nicovideo.jp/watch/sm32671229}}とフーリエ級数展開の関係を説明するにあたって、まず離散フーリエ変換と図の描画について説明する。
@@ -577,12 +626,12 @@ NanoVNAを用いて測定した各フィルタの周波数特性を以下に示�
 そうすることでフーリエ係数で定義された正弦波と余弦波を合成した一つの式を導ける。
 これらの
 \subsection{独自考察}
+本実験よりある一定の周波数のみを通過するフィルタの使用について理解を深めた。
+そこで、通過域が2つ以上存在するBPFやBEFのようなフィルタを設計・実装できるのか検討をする。
+
 
 \section{結論}
-か
-
-\section{謝辞}
-き
+以上の実験より、時間信号と周波数スペクトルの相互関係を理解するとともに、アナログフィルタを用いた周波数選択によって時間信号が変化する様子を理解することができた。
 
 
 \begin{thebibliography}{99}

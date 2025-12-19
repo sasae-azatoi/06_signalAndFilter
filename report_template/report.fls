@@ -1,8 +1,8 @@
-PWD c:/Users/takan/OneDrive/reports/4”N/06_signalAndFilter/report_template
+PWD c:/Users/takan/OneDrive/reports/4th/06_signalAndFilter/report_template
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/euptex/platex.fmt
-INPUT c:/Users/takan/OneDrive/reports/4”N/06_signalAndFilter/report_template/report.tex
+INPUT c:/Users/takan/OneDrive/reports/4th/06_signalAndFilter/report_template/report.tex
 OUTPUT report.log
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
 INPUT c:/texlive/2024/texmf-dist/tex/platex/base/jarticle.cls
@@ -643,6 +643,7 @@ INPUT ./fig/NanoVNA_BEF.png
 INPUT ./fig/NanoVNA_BEF.png
 INPUT ./fig/NanoVNA_BEF.png
 INPUT extractbb -B cropbox -O fig/NanoVNA_BEF.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin9.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/min9.tfm
