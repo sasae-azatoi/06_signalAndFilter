@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.21)  16 DEC 2025 12:47
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.21)  19 DEC 2025 15:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1083,7 +1083,7 @@ LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: FD20D2F8E3FE1E0D5564EFA2B063EA61;4041.
+(rerunfilecheck)             Checksum: 1491993CC685A3762EDD938A367FDCF3;3983.
  ) 
 Here is how much of TeX's memory you used:
  28171 strings out of 474243
@@ -1094,4 +1094,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  105i,14n,119p,536b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.dvi (40 pages, 67552 bytes).
+Output written on report.dvi (40 pages, 67416 bytes).
