@@ -1,9 +1,6 @@
 # 共有するファイル・ディレクトリ以外を除外
 # 共有対象: figディレクトリ, texファイル, latexmkrc, .sty, Title.pdf, report.pdf
 
-# まず全て除外
-*
-
 # 除外解除（共有対象のみ）
 !report_template/fig/
 !report_template/*.tex
