@@ -657,6 +657,14 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin6.tfm
+INPUT ./fig/multiband_BPF_circuit.png
+INPUT ./fig/multiband_BPF_circuit.png
+INPUT ./fig/multiband_BPF_circuit.png
+INPUT extractbb -B cropbox -O fig/multiband_BPF_circuit.png
+INPUT ./fig/multiband_BPF_frequency_response.png
+INPUT ./fig/multiband_BPF_frequency_response.png
+INPUT ./fig/multiband_BPF_frequency_response.png
+INPUT extractbb -B cropbox -O fig/multiband_BPF_frequency_response.png
 INPUT report.aux
 INPUT ./report.out
 INPUT ./report.out
