@@ -391,6 +391,22 @@ INPUT extractbb -B cropbox -O fig/VNA.drawio.png
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT ./fig/original_wave1.png
+INPUT ./fig/original_wave1.png
+INPUT ./fig/original_wave1.png
+INPUT extractbb -B cropbox -O fig/Original_wave1.png
+INPUT ./fig/original_wave2.png
+INPUT ./fig/original_wave2.png
+INPUT ./fig/original_wave2.png
+INPUT extractbb -B cropbox -O fig/Original_wave2.png
+INPUT ./fig/original_wave3.png
+INPUT ./fig/original_wave3.png
+INPUT ./fig/original_wave3.png
+INPUT extractbb -B cropbox -O fig/Original_wave3.png
+INPUT ./fig/original_wave4.png
+INPUT ./fig/original_wave4.png
+INPUT ./fig/original_wave4.png
+INPUT extractbb -B cropbox -O fig/Original_wave4.png
 INPUT ./fig/10kHz_LPF_characteristic.png
 INPUT ./fig/10kHz_LPF_characteristic.png
 INPUT ./fig/10kHz_LPF_characteristic.png
