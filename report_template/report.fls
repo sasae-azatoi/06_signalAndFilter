@@ -407,6 +407,10 @@ INPUT ./fig/original_wave4.png
 INPUT ./fig/original_wave4.png
 INPUT ./fig/original_wave4.png
 INPUT extractbb -B cropbox -O fig/Original_wave4.png
+INPUT ./fig/gaussian_pulse.png
+INPUT ./fig/gaussian_pulse.png
+INPUT ./fig/gaussian_pulse.png
+INPUT extractbb -B cropbox -O fig/Gaussian_pulse.png
 INPUT ./fig/10kHz_LPF_characteristic.png
 INPUT ./fig/10kHz_LPF_characteristic.png
 INPUT ./fig/10kHz_LPF_characteristic.png

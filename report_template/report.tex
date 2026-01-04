@@ -117,10 +117,8 @@ NanoVNAを用いてフィルタの周波数特性を測定した。以下の手�
   \label{fig:実験回路2}
 \end{figure}
 
-\section{実験結果}
-\subsection{時間信号の特性}
-\subsubsection{任意波形の概形}
-今回の実験で用いた任意波形を\wfig{originalwave1},\wfig{originalwave2},\wfig{originalwave3},\wfig{originalwave4}に示す。
+\subsubsection{任意波形・ガウシアンパルスの概形}
+今回の実験で印加した任意波形を\wfig{originalwave1},\wfig{originalwave2},\wfig{originalwave3},\wfig{originalwave4}に示す。
 \begin{figure}[H]
   \centering
   \includegraphics[width=0.8\textwidth]{fig/Original_wave1.png}
@@ -145,6 +143,17 @@ NanoVNAを用いてフィルタの周波数特性を測定した。以下の手�
   \caption{任意波形4}
   \label{fig:originalwave4}
 \end{figure}
+
+今回の実験で印加したガウシアンパルスの概形を\wfig{Gaussian_pulse}に示す。
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.8\textwidth]{fig/Gaussian_pulse.png}
+  \caption{ガウシアンパルス}
+  \label{fig:Gaussian_pulse}
+\end{figure}
+
+\section{実験結果}
+\subsection{時間信号の特性}
 \subsubsection{LPF}
 LPFの入力・出力波形を以下に示す。LPFでは，入力信号と出力信号の波形がどのように変化するかを確認した。
 
@@ -553,13 +562,13 @@ NanoVNAを用いて測定した各フィルタの周波数特性を以下に示�
   \caption{BEFの周波数特性（NanoVNA測定）}
   \label{fig:NanoVNA_BEF}
 \end{figure}
-\wfig{NanoVNA_BEF}より，BEFの通過帯域が約100kHzから140kHzであること，BEFとして機能していることが確認できる。
+\wfig{NanoVNA_BEF}より，BEFの遮断帯域が約100kHzから140kHzであること，BEFとして機能していることが確認できる。
 \section{考察}
 \subsection{フィルタ(ノイズ除去)の実例を示せ}
 
-\subsubsection{horlabs社の製品のBNC型ローパスフィルターとBNC型ハイパスフィルター}
-この2つの製品はBNCコネクタを持つパッシブフィルターであり，主にオシロスコープに接続して使用される。
-
+\subsubsection{無線通信・放送}
+選局回路:聞きたい、見たい放送局の周波数帯域のみを取り出し、それ以外の不要な周波数を除去するためにフィルタが使用される。\\
+ノイズ除去:外部からの電磁ノイズや他の放送局からの干渉を除去するためにフィルタ回路が用いられている。
 \subsubsection{MJCETの研究であるBEFフィルタを用いた60 Hzの電源ノイズ除去}
 
 この研究では，BEFフィルタを用いて60 Hzの電源ノイズを除去する方法が提案されている。特に医療現場での心電図（ECG）信号のノイズ除去に焦点を当てており，
@@ -658,11 +667,11 @@ $|S_{21}|$ をdB表示にして $-3\ \mathrm{dB}$ 点を直接読み取れるプ
 
 \subsection{時間信号と周波数特性の比較}
 NanoVNAによる周波数特性測定と，VirtualBenchによる時間信号測定の結果を比較する。
-\subsubsection{LPF(低域通貨フィルタ)}
+\subsubsection{LPF(低域通過フィルタ)}
 周波数特性では遮断周波数が約150kHzであった。時間信号においても，150kHzを超えると出力振幅の減少が始まり，特性は一致した。
-\subsubsection{HPF(高域通貨フィルタ)}
+\subsubsection{HPF(高域通過フィルタ)}
 周波数特性では遮断周波数が約140kHzであった。時間信号でも低周波成分は除去され，140kHz付近から出力振幅が増大しており，整合性が確認された。
-\subsubsection{BPF(帯域通貨フィルタ)}
+\subsubsection{BPF(帯域通過フィルタ)}
 周波数特性では通過帯域が約50kHzから200kHzであった。時間信号でも同帯域外の成分が除去されており，両者の結果は対応している。
 \subsubsection{BEF(帯域阻止フィルタ)}
 周波数特性では100kHzから140kHz付近が減衰域であった。時間信号でも特定帯域（100kHz, 140kHz）の成分のみが除去されており，特性は一致した。
@@ -763,7 +772,7 @@ LC（インダクタとコンデンサ）を用いたアナログフィルタで
 \wfig{multiband_BPF_frequency_response}にLTspiceを用いてシミュレーションしたマルチバンドパスフィルタの周波数特性を示す。
 \begin{figure}[H]
   \centering
-  \includegraphics[width=0.8\textwidth]{fig/multiband_BPF_frequency_response.png}
+  \includegraphics[width=1.0\textwidth]{fig/multiband_BPF_frequency_response.png}
   \caption{マルチバンドパスフィルタの周波数特性}
   \label{fig:multiband_BPF_frequency_response} 
 \end{figure}

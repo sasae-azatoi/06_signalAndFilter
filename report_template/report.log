@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.21)  30 DEC 2025 22:47
+This is e-upTeX, Version 3.141592653-p4.1.1-u1.30-230214-2.6 (utf8.sjis) (TeX Live 2024) (preloaded format=platex 2024.7.20)  4 JAN 2026 18:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -844,23 +844,25 @@ File: fig/VNA.drawio.png Graphic file (type bmp)
 
 [4]
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 122.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 120.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 122.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 120.
 File: fig/Original_wave1.png Graphic file (type bmp)
 <fig/Original_wave1.png>
 File: fig/Original_wave2.png Graphic file (type bmp)
 <fig/Original_wave2.png>
+File: fig/Original_wave3.png Graphic file (type bmp)
+<fig/Original_wave3.png>
 
 
 [5]
-File: fig/Original_wave3.png Graphic file (type bmp)
-<fig/Original_wave3.png>
 File: fig/Original_wave4.png Graphic file (type bmp)
 <fig/Original_wave4.png>
 
 
 [6]
+File: fig/Gaussian_pulse.png Graphic file (type bmp)
+<fig/Gaussian_pulse.png>
 File: fig/10kHz_LPF_characteristic.png Graphic file (type bmp)
 <fig/10kHz_LPF_characteristic.png>
 File: fig/20kHz_LPF_characteristic.png Graphic file (type bmp)
@@ -1071,24 +1073,22 @@ File: fig/Original_wave4_BEF_characteristic.png Graphic file (type bmp)
 [36]
 File: fig/NanoVNA_LPF.png Graphic file (type bmp)
 <fig/NanoVNA_LPF.png>
+
+
+[37]
 File: fig/NanoVNA_HPF.png Graphic file (type bmp)
 <fig/NanoVNA_HPF.png>
 
 
-[37]
+[38]
 File: fig/NanoVNA_BPF.png Graphic file (type bmp)
 <fig/NanoVNA_BPF.png>
-File: fig/NanoVNA_BEF.png Graphic file (type bmp)
-<fig/NanoVNA_BEF.png>
-
-
-[38]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 
 
 [39]
+File: fig/NanoVNA_BEF.png Graphic file (type bmp)
+<fig/NanoVNA_BEF.png>
+
 
 [40]
 
@@ -1097,30 +1097,34 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [42]
 
 [43]
+
+[44]
+
+[45]
 File: fig/multiband_BPF_circuit.png Graphic file (type bmp)
 <fig/multiband_BPF_circuit.png>
 File: fig/multiband_BPF_frequency_response.png Graphic file (type bmp)
 <fig/multiband_BPF_frequency_response.png>
 
 
-[44]
+[46]
 
-[45] (./report.aux)
+[47] (./report.aux)
  ***********
 pLaTeX2e <2023-02-14>+1, based on
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
  ***********
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: B74926FAADE39015FB3EF2529ED52195;5087.
+(rerunfilecheck)             Checksum: 87C269921B564C540C9A5096EDB50096;4952.
  ) 
 Here is how much of TeX's memory you used:
- 28217 strings out of 474243
- 528109 string characters out of 5746674
+ 28225 strings out of 474243
+ 528311 string characters out of 5746674
  1932753 words of memory out of 5000000
- 50543 multiletter control sequences out of 15000+600000
+ 50550 multiletter control sequences out of 15000+600000
  573878 words of font info for 100 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  105i,14n,119p,536b,630s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on report.dvi (45 pages, 90196 bytes).
+Output written on report.dvi (47 pages, 91452 bytes).
